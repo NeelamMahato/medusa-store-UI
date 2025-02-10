@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /dist
 .env
 .DS_Store
@@ -23,4 +24,31 @@ build
 !.yarn/sdks
 !.yarn/versions
 
+=======
+/dist
+.env
+.DS_Store
+/uploads
+/node_modules
+yarn-error.log
+
+.idea
+
+coverage
+
+!src/**
+
+./tsconfig.tsbuildinfo
+medusa-db.sql
+build
+.cache
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+>>>>>>> b07355e (folders added)
 .medusa
